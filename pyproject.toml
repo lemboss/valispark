@@ -4,7 +4,6 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "pyspark>=3.5.8,<4",
-    "sqlglot>=30.33.0",
 ]
 
 [dependency-groups]
