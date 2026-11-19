@@ -1,10 +1,14 @@
 """Валидация Spark SQL через Catalyst без SparkSession."""
 
 from .errors import SparkSqlAnalyzerError, SqlValidationError
-from .spark_sql_analyzer import SparkSqlAnalyzer
+from .types import ColumnMetadata, TableMetadata, TablesMetadata
+from .valispark import Valispark
 
 __all__ = [
-    "SparkSqlAnalyzer",
+    "ColumnMetadata",
     "SparkSqlAnalyzerError",
     "SqlValidationError",
+    "TableMetadata",
+    "TablesMetadata",
+    "Valispark",
 ]
